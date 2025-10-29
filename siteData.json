@@ -81,7 +81,8 @@
         "appendix-planned-enhancements": "Appendix: Planned Enhancements",
         "1-show-team-information-for-each-athlete": "1. Show team information for each athlete",
         "2-show-attendance-for-each-athlete": "2. Show attendance for each athlete",
-        "3-auto-deletion-of-sessions-after-the-end-date-and-amp-time-has-passed": "3. Auto deletion of sessions after the end date &amp; time has passed"
+        "3-auto-deletion-of-sessions-after-the-end-date-and-amp-time-has-passed": "3. Auto deletion of sessions after the end date &amp; time has passed",
+        "4-indexed-commands-only-work-for-the-currently-displayed-list-of-athletes-or-teams": "4. Indexed commands only work for the currently displayed list of athletes or teams"
       },
       "headingKeywords": {}
     },
@@ -132,12 +133,12 @@
         "adding-an-athlete-add": "Adding an athlete: add",
         "listing-all-athletes-list": "Listing all athletes : list",
         "editing-an-athlete-edit": "Editing an athlete : edit",
-        "locating-athletes-by-name-school-role-or-tag-find": "Locating athletes by name, school, role or tag: find",
+        "finding-athletes-by-name-school-role-or-tag-find": "Finding athletes by name, school, role or tag: find",
         "deleting-an-athlete-delete": "Deleting an athlete : delete",
         "adding-a-team-team": "Adding a team: team",
         "listing-all-teams-listteams": "Listing all teams: listteams",
-        "deleting-a-team-deleteteam": "Deleting a team : deleteteam",
         "locating-teams-findteam": "Locating teams: findteam",
+        "deleting-a-team-deleteteam": "Deleting a team : deleteteam",
         "adding-session-addsession": "Adding Session: addsession",
         "deleting-session-deletesession": "Deleting Session: deletesession",
         "clearing-all-entries-clear": "Clearing all entries : clear",
