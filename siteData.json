@@ -39,7 +39,7 @@
     {
       "src": "DeveloperGuide.md",
       "headings": {
-        "ab-3-developer-guide": "AB-3 Developer Guide",
+        "relaycoach-developer-guide": "RelayCoach Developer Guide",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
@@ -51,6 +51,7 @@
         "common-classes": "Common classes",
         "implementation": "Implementation",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
+        "teams-and-sessions": "Teams and Sessions",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
@@ -61,8 +62,9 @@
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
-        "deleting-a-person": "Deleting a person",
-        "saving-data": "Saving data"
+        "deleting-an-athlete": "Deleting an athlete",
+        "saving-data": "Saving data",
+        "teams-and-sessions-2": "Teams and Sessions"
       },
       "headingKeywords": {}
     },
@@ -110,16 +112,15 @@
         "quick-start": "Quick start",
         "features": "Features",
         "viewing-help-help": "Viewing help : help",
-        "adding-a-person-add": "Adding a person: add",
+        "adding-an-athlete-add": "Adding an athlete: add",
         "listing-all-athletes-list": "Listing all athletes : list",
         "editing-an-athlete-edit": "Editing an athlete : edit",
         "locating-athletes-by-name-school-role-or-tag-find": "Locating athletes by name, school, role or tag: find",
-        "locating-teams-findteam": "Locating teams: findteam",
-        "deleting-a-person-delete": "Deleting a person : delete",
+        "deleting-an-athlete-delete": "Deleting an athlete : delete",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "adding-a-team-team": "Adding a team: team",
         "listing-all-teams-listteams": "Listing all teams: listteams",
-        "locating-teams-findteam-2": "Locating teams: findteam",
+        "locating-teams-findteam": "Locating teams: findteam",
         "deleting-a-team-deleteteam": "Deleting a team : deleteteam",
         "exiting-the-program-exit": "Exiting the program : exit",
         "saving-the-data": "Saving the data",
