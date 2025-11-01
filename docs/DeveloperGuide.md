@@ -348,8 +348,9 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 |----------|-----------------------------------------------------|--------------------------------------|-------------------------------------------------------------------------|
 | `* * *`  | new user                                            | see usage instructions               | refer to instructions when I forget how to use the App                  |
 | `* * *`  | user                                                | add a new athlete                    | keep track of my athletes                                               |
-| `* * *`  | user                                                | delete a athlete                     | remove entries that I no longer need                                    |
+| `* * *`  | user                                                | delete a athlete                     | remove athletes and their information that I no longer need             |
 | `* * *`  | user                                                | find an athlete by name              | locate details of athletes without having to go through the entire list |
+| `* * *`  | user                                                | clear the app entirely               | reset the state of the app and remove unwanted data                     |
 | `* *`    | user with lots of athletes to keep track of         | find athletes by school, role or tag | locate details of athletes that I wish to find via these means          |
 | `* *`    | user managing multiple teams                        | group 4 athletes by their teams      | keep track of who is in which team                                      |
 | `* *`    | user                                                | find a team by name                  | locate details of teams without having to go through the entire list    |
@@ -946,6 +947,8 @@ This will maintain a clutter-free and up-to-date session list for the teams.
 #### **4. Indexed commands only work for the currently displayed list of athletes or teams**
 
 **Description:**  
-Indexed commands such as `edit`, `delete` and `find` should only work for the currently displayed list of athletes or teams.
+Indexed commands such as `edit`, `delete`, `find` and `addsession` should only work for the currently displayed list of athletes or teams.
+For example, `addsession i/1 ...` will only work if the currently displayed list is a team list.
+Similarly, `delete 1` will only work if the currently displayed list is an athlete list.
 Using a team-related command on an athlete list (and vice versa) will result in an error message.
 This will prevent coaches from accidentally deleting or editing athletes or teams that are not displayed.
